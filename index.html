@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>To do list</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-line">
+        <div class="intro col-12">
+          <h1>To Do List 💪</h1>
+          <div>
+            <div class="border1"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-line">
+        <div class="instructions">
+          <p id="line1">
+            You hawe something to do? Yeah, sure. Just type them in here, and
+            press ENTER!
+          </p>
+          <p id="line2">
+            If you have complete the task, just click on it, and the color will
+            change. Magic!
+          </p>
+          <p id="line3">
+            And if you change your mind an dont wanna do it, click delete.
+          </p>
+        </div>
+      </div>
+
+      <div class="text-line">
+        <div class="input">
+          <input
+            id="userInput"
+            type="text"
+            placeholder="Add to-do!"
+            maxlength="50"
+          />
+          <button id="enter"><i class="fas fa-pencil-alt"></i></button>
+        </div>
+      </div>
+
+      <div class="text-line">
+        <div class="listItems input">
+          <ul class="input offset-0 col-sm-8 offset-sm-2"></ul>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
